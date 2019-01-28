@@ -7,5 +7,5 @@ services:
         ports:
             - 8888:8888
         volumes:
-            - ./notebooks:/home/jovyan/work
+            - ./statistics/:/home/jovyan/work/
         entrypoint: sh -c 'start-notebook.sh --NotebookApp.token=$$JUPYTER_PASSWORD'
