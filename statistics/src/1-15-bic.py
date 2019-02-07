@@ -11,5 +11,5 @@ y = boston.target
 lr = LassoLarsIC(criterion="bic")
 lr.fit(X, y)
 
-# Evalutae
+# Evalute
 print(lr.alpha_)
