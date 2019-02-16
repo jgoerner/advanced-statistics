@@ -2,7 +2,7 @@ import numpy as np
 from scipy.stats import norm
 from tqdm import tqdm
 
-def mcmc(data, dist, target, init, proposal_width, params_prior, params_const, n_iter):
+def mcmc(data, dist, target, init, proposal_width, params_prior, params_const, n_iter, desc=None):
     """MCMC Metropolis Sampling
     
     Parameter
@@ -33,7 +33,7 @@ def mcmc(data, dist, target, init, proposal_width, params_prior, params_const, n
     params_current.update({target: init})
     params_proposal = params_const.copy() # defensive copy (!)
     trace = [params_current[target]]
-    for _ in tqdm(range(n_iter)):
+    for _ in tqdm(range(n_iter), desc=desc):
 
         # proposal
         proposal = norm(params_current[target], proposal_width).rvs()
