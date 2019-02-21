@@ -4,8 +4,8 @@ Source code for the module "Advanced Statistics"
 # Structure
 - [Readingguide I](https://github.com/jgoerner/advanced-statistics/blob/master/statistics/notebooks/Readingguide-1.ipynb) covers fundamentals of univariate & multivariate distributions
 - [Readingguide II](https://github.com/jgoerner/advanced-statistics/blob/master/statistics/notebooks/Readingguide-2.ipynb) covers Gaussian Mixture Models and the general Expectation-Maximization-Algorithm
-- [Readingguide III]() covers ...
-- [Readingguide IV]() covers ...
+- [Readingguide III]() covers MCMC processes in  Bayesian statistics
+- [Readingguide IV]() covers Probabilistic Programming
 
 # How to start the repository
 1. create a file `jupyter.env` at `./config/`
