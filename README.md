@@ -13,7 +13,7 @@ Source code for the module "Advanced Statistics"
 # Sample Content
 ##### Infered Mixture model
 ![](https://raw.githubusercontent.com/jgoerner/advanced-statistics/master/statistics/results/4-24-mixture-model.png)
-##### Parameter Likelihood Contour
+##### Contour w/ levels
 ![](https://raw.githubusercontent.com/jgoerner/advanced-statistics/master/statistics/results/2-13-contour-2d.png)
 ##### Trace Plot
 ![](https://raw.githubusercontent.com/jgoerner/advanced-statistics/master/statistics/results/4-11-regression-half-cauchy.png)
